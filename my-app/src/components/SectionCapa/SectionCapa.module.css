@@ -1,0 +1,30 @@
+.img_fundo {
+    background-image: url('../../../public/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 85vh;
+}
+
+.textos {
+    width: 25%;
+    text-align:start;
+    position: relative;
+    top: 40%;
+    left: 23%;
+    max-width: 500px;
+}
+
+.textos p{
+    font-size: 22px;
+    color: rgb(196, 196, 196);
+    font-family: 'Anybody', cursive;
+
+}
+
+.textos h1 {
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Anybody', cursive;
+
+}
