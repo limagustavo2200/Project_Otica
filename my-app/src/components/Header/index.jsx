@@ -11,8 +11,8 @@ export default function Header(){
                 <Image
                 src={Logo}// Caminho da imagem
                 alt="Logo"
-                width={150}   // Largura da imagem
-                height={35}  // Altura da imagem
+                width={130}   // Largura da imagem
+                height={30}  // Altura da imagem
                 />
                 <div className={estilos.navbar}>
                     <Link href=''>PRODUTOS</Link>

@@ -3,28 +3,44 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 85vh;
+    height: 90vh;
+}
+
+.img_fundo .container_textos {
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    /* border: solid 1px red; */
 }
 
 .textos {
-    width: 25%;
-    text-align:start;
-    position: relative;
-    top: 40%;
-    left: 23%;
-    max-width: 500px;
+    /* border: solid 1px yellow; */
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.textos p{
-    font-size: 22px;
+.textos  p, .textos h1 {
+    font-family: 'Anybody', cursive;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img_fundo p {
+    font-size: 24px;
     color: rgb(196, 196, 196);
-    font-family: 'Anybody', cursive;
-
 }
 
-.textos h1 {
-    font-size: 32px;
+.img_fundo h1 {
     color: #fff;
-    font-family: 'Anybody', cursive;
-
+    font-size: 34px;
+    margin: 0;
+    letter-spacing: 5px;
+    line-height: 60px;
 }
