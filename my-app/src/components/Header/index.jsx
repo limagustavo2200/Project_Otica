@@ -15,7 +15,7 @@ export default function Header(){
                 height={30}  // Altura da imagem
                 />
                 <div className={estilos.navbar}>
-                    <Link href=''>PRODUTOS</Link>
+                    <Link href='#produtos'>PRODUTOS</Link>
                     <Link href=''>SOBRE</Link>
                     <Link href=''>CONTATO</Link>
                 </div>
