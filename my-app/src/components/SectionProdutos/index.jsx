@@ -6,7 +6,7 @@ export default function SectionProdutos() {
     return(
         <main className={estilos.main}>
             <div id='produtos' className={estilos.container_geral}>
-                <div className={estilos.content}>
+                <div className={estilos.container_titulo}>
                     <h1>Nosso produtos</h1>
                     <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, feminino e infantil.</p>
                     <p>Todos os nossos preços são acessíveis e contam com a melhor qualidade do mercado.</p>

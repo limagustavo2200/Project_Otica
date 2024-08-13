@@ -4,11 +4,12 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-color: #fff;
+    width: 100%;
 }
 
 .container_geral {
     width: 100%;
-    background-color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -18,7 +19,7 @@
     max-width: 1024px;
 }
 
-.content{
+.container_titulo {
     display: flex;
     flex-direction: column;
     gap: 8px;

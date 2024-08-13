@@ -16,7 +16,7 @@ export default function Header(){
                 />
                 <div className={estilos.navbar}>
                     <Link href='#produtos'>PRODUTOS</Link>
-                    <Link href=''>SOBRE</Link>
+                    <Link href='#about'>SOBRE</Link>
                     <Link href=''>CONTATO</Link>
                 </div>
             </div>
