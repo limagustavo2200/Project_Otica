@@ -3,6 +3,7 @@ import Image from "next/image";
 import estilos from "@/styles/Home.module.css";
 import Header from '@/components/Header';
 import Conteudo from "@/components/Conteudo";
+import Footer from "@/components/Footer";
 
 
 
@@ -18,7 +19,7 @@ export default function Home() {
       <main className={estilos.main}>
         <Header/>
         <Conteudo/>
-        
+        <Footer/>
       </main>
     </>
   );

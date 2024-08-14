@@ -2,13 +2,17 @@
     background-color: #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 .container {
     display: flex;
     width: 80%;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    gap: 20px;
+
 }
 
 .navbar {
@@ -25,4 +29,38 @@
 
 .navbar a:hover {
     border-bottom: solid 2px #000000; 
+}
+
+@media (max-width: 550px) {
+    .header div {
+        flex-direction: column;
+    }
+
+    .header nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #aaadaf;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media ( min-width: 550px) and (max-width: 768px) {
+    .header div {
+        flex-direction: column;
+    }
+
+    .header nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #aaadaf;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        width: 100%;
+    }
 }

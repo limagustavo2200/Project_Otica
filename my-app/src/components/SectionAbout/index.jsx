@@ -6,7 +6,7 @@ export default function SectionAbout() {
         <section className={estilos.main}>
             <div id='about' className={estilos.container}>
                 <div className={estilos.container_titulo}>
-                    <h1>quem somos nós?</h1>
+                    <h2>quem somos nós?</h2>
                     <p>
                         Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas Vida
                         iniciou suas atividades focada no atendimento ao público de renda mais

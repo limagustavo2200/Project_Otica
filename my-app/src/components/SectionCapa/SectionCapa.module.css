@@ -2,25 +2,25 @@
     background-image: url('../../../public/capa.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     height: 90vh;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .img_fundo .container_textos {
     height: 100%;
-    width: 50%;
     padding: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: flex-end;
-    /* border: solid 1px red; */
 }
 
 .textos {
-    /* border: solid 1px yellow; */
-    max-width: 70%;
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
 
@@ -30,7 +30,8 @@
     font-family: 'Anybody', cursive;
     display: flex;
     flex-direction: column;
-
+    max-width: 400px;
+    
 }
 
 .img_fundo p {
@@ -44,4 +45,53 @@
     margin: 0;
     letter-spacing: 5px;
     line-height: 40px;
+}
+
+@media (min-width: 375px) {
+    .img_fundo {
+        background-position: 90%;
+    }
+
+    .img_fundo .container_textos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textos {
+        background-color: rgba(0,0,0,0.6);
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .textos h1 {
+        line-height: 70px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img_fundo .container_textos {
+        align-items: start;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img_fundo {
+        background-position: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .textos {
+        background-color:transparent;
+    }
+
+    .img_fundo .container_textos {
+        width: 50%;
+        align-items: center;
+    }
 }

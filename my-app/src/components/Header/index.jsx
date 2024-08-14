@@ -14,11 +14,12 @@ export default function Header(){
                 width={130}   // Largura da imagem
                 height={30}  // Altura da imagem
                 />
-                <div className={estilos.navbar}>
+                
+                <nav className={estilos.navbar}>
                     <Link href='#produtos'>PRODUTOS</Link>
                     <Link href='#about'>SOBRE</Link>
-                    <Link href=''>CONTATO</Link>
-                </div>
+                    <Link href='#contact'>CONTATO</Link>
+                </nav>
             </div>
 
         </header>

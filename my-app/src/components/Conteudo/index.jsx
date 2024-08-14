@@ -1,6 +1,7 @@
 import SectionCapa from "../SectionCapa";
 import SectionProdutos from "../SectionProdutos";
 import SectionAbout from "../SectionAbout";
+import SectionContact from "../SectionContact";
 
 
 export default function Conteudo() {
@@ -9,6 +10,7 @@ export default function Conteudo() {
             <SectionCapa/>
             <SectionProdutos/>
             <SectionAbout/>
+            <SectionContact/>
 
         </main>
     )
